@@ -9,6 +9,15 @@ I grew up with the Internet. It's a place that feels to me so permanent. I'd lik
 
 #+end_quote
 
+#+begin_export html
+<div id="myapp"></div>
+  <script>
+  var app = Elm.Main.init({
+    node: document.getElementById('myapp')
+  });
+  </script>
+#+end_export
+
 * Poems
 - [[file:poems.2024-02-19.org][Something curls knots deep within...]]
 - [[file:poems.2024-02-07.org][They're seldom things but brisk gusts' shrieks...]]
@@ -20,11 +29,3 @@ I grew up with the Internet. It's a place that feels to me so permanent. I'd lik
 
 # spinning cube
 
-#+begin_export html
-<div id="myapp"></div>
-  <script>
-  var app = Elm.Main.init({
-    node: document.getElementById('myapp')
-  });
-  </script>
-#+end_export

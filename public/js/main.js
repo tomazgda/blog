@@ -7397,9 +7397,9 @@ var $author$project$Main$view = function (angle) {
 		$elm_explorations$webgl$WebGL$toHtml,
 		_List_fromArray(
 			[
-				$elm$html$Html$Attributes$width(400),
-				$elm$html$Html$Attributes$height(400),
-				A2($elm$html$Html$Attributes$style, 'display', 'block')
+				$elm$html$Html$Attributes$width(100),
+				$elm$html$Html$Attributes$height(100),
+				A2($elm$html$Html$Attributes$style, 'display', 'inline')
 			]),
 		_List_fromArray(
 			[

@@ -66,7 +66,7 @@ subscriptions _ =
 view : Model -> Html Msg
 view angle =
   WebGL.toHtml
-    [ width 400, height 400, style "display" "block"
+    [ width 100, height 100, style "display" "inline"
     ]
     [ WebGL.entity vertexShader fragmentShader cubeMesh (uniforms angle)
     ]
