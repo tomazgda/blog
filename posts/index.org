@@ -1,4 +1,12 @@
 #+TITLE: And Another Thing...
+#+EMAIL: tomaz@tagda.org
+#+OPTIONS: toc:nil
+
+#+begin_quote
+
+I grew up with the internet. It's a place that feels to me so permenent. I'd like, in that permenance, some of myself to be reflected. Like everyone, I have things to say - and I want to say them somewhere. That's what this is, or at least what I intend it to be. Some things may not be good; some I hope will be. In all likelihood, like everything, they'll come out a mixed bag. Thoughts, poems, stories: these are my things. And I hope you enjoy them!
+
+#+end_quote
 
 * Poems
 - [[file:poems.2024-02-19.org][Something curls knots deep within...]]
