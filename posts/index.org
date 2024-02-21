@@ -1,5 +1,10 @@
-#+TITLE: My Webpage
+#+TITLE: And Another Thing...
 
-- [[file:poems.2024-02-07.org][A little bit of sci-fi]]
-- [[file:poems.2024-02-19.org][Faces]]
-- [[file:poems.2024-02-04.org][Rest]]
+* Poems
+- [[file:poems.2024-02-19.org][Something curls knots deep within...]]
+- [[file:poems.2024-02-07.org][They're seldom things but brisk gusts' shrieks...]]
+- [[file:poems.2024-02-04.org][When I rest my troubles steep...]]
+
+* Short Stories
+- [[file:stories.2021-10-01.org][The Summer Was Over]]
+

@@ -1,4 +1,4 @@
-#+title: A little bit of sci-fi 
+#+title: They're seldom things but brisk gusts' shrieks...
 #+date: 2024-02-07
 
 #+begin_verse
@@ -21,7 +21,7 @@ a living-thing come, a thing with cause.
 --- 
 
 That disruption fret the wind.
-The crusade blast that killed all thing.
+The crusade blast that killed all things.
 Now it spat and coughed and kicked,
 into the man the grain and grit.
 

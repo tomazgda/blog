@@ -20,6 +20,7 @@
       org-html-head-include-scripts nil       ;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
       org-html-link-home "index.html"
+      org-html-link-up "index.html"
       org-html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/site.css\"/>")
 
 ;; Define the publishing project
@@ -29,8 +30,7 @@
              :recursive t
              :base-directory "./posts"
 	     :auto-sitemap t
-	     :sitemap-title "My Webpage"
-	     :sitemap-filename "index.org"
+	     :sitemap-filename "sitemap.org" 
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
 	     :author "Tomaz Geddes de Almeida"
