@@ -6,5 +6,5 @@
 - [[file:poems.2024-02-04.org][When I rest my troubles steep...]]
 
 * Short Stories
-- [[file:stories.2021-10-01.org][The Summer Was Over]]
+- [[file:stories.2021-10-01.org][The Summer Was Over]] :: October 2021
 

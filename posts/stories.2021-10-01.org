@@ -1,11 +1,9 @@
 #+title: The Summer Was Over
 #+date: 2021-10-01
 
-#+begin_comment
-
+#+begin_quote
 A first draft of course work for my English GCSE.
-
-#+end_comment
+#+end_quote
 
 The docks were all Chidi knew; he saw them as his home, however ironic that may be. After all, they were a base of His Majesty’s navy: certainly a home more grandiose than Chidi deserved. For that, he was grateful.
 
