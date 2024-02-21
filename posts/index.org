@@ -2,6 +2,7 @@
 #+EMAIL: tomaz@tagda.org
 #+OPTIONS: toc:nil
 
+* About
 #+begin_quote
 
 I grew up with the Internet. It's a place that feels to me so permanent. I'd like, in that permanence, some of myself to be reflected. Like everyone, I have things to say - and I want to say them somewhere. That's what this is, or at least what I intend it to be. Some things may not be good; some I hope will be. In all likelihood, like everything, they'll come out a mixed bag. Thoughts, poems, stories: these are my things. And I hope you enjoy them!
@@ -16,3 +17,14 @@ I grew up with the Internet. It's a place that feels to me so permanent. I'd lik
 * Short Stories
 - [[file:stories.2021-10-01.org][The Summer Was Over]] :: October 2021
 
+
+# spinning cube
+
+#+begin_export html
+<div id="myapp"></div>
+  <script>
+  var app = Elm.Main.init({
+    node: document.getElementById('myapp')
+  });
+  </script>
+#+end_export

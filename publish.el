@@ -15,13 +15,14 @@
 
 (require 'ox-publish)
 
-;; Customize the HTML output
+;; customize the HTML output
 (setq org-html-validation-link nil            ;; Don't show validation link
       org-html-head-include-scripts nil       ;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
-      org-html-link-home "index.html"
-      org-html-link-up "index.html"
-      org-html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/site.css\"/>")
+      org-html-head "
+	<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/site.css\"/>
+  	<script src=\"js/main.js\"></script>
+")
 
 ;; Define the publishing project
 (setq org-publish-project-alist
@@ -35,14 +36,21 @@
              :publishing-directory "./public"
 	     :author "Tomaz Geddes de Almeida"
 	     :email "tomaz@taga.org"
+	     :html-link-up "index.html"
+	     :html-link-home "index.html"
              :section-numbers nil       ;; Don't include section numbers
              :time-stamp-file nil)	;; Don't include time stamp in file
        (list "org-site:css"
 	     :base-directory "./css"
 	     :base-extension "css"
 	     :publishing-directory "./public/css"
-	     :publishing-function 'org-publish-attachment
+	     :publishing-function 'org-publish-attachment 
 	     )
+       (list "org-site:js"
+	     :base-directory "./elm"
+	     :base-extension "js"
+	     :publishing-directory "./public/js"
+	     :publishing-function 'org-publish-attachment )
        ))    
 
 ;; Generate the site output

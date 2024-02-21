@@ -2,7 +2,9 @@
 
 all: publish
 
-publish: publish.el
+publish: publish.el elm/src/Main.elm
+	@echo "Compiling Elm to Javascript"
+	cd elm && elm make src/Main.elm --output=main.js && cd ..
 	@echo "Publishing... with --no-init."
 	emacs -Q --script publish.el
 
