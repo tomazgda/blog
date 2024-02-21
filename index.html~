@@ -6,8 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>And Another Thing&#x2026;</title>
-<meta name="generator" content="Org mode" />
 <meta name="author" content="Tomaz Geddes de Almeida" />
+<meta name="generator" content="Org Mode" />
 
 	<link rel="stylesheet" type="text/css" href="./css/site.css"/>
   	<script src="js/main.js"></script>
@@ -17,12 +17,12 @@
  <a accesskey="h" href="index.html"> UP </a>
  |
  <a accesskey="H" href="index.html"> HOME </a>
-</div><div id="content">
+</div><div id="content" class="content">
 <h1 class="title">And Another Thing&#x2026;</h1>
 
-<div id="outline-container-org59fd008" class="outline-2">
-<h2 id="org59fd008">About</h2>
-<div class="outline-text-2" id="text-org59fd008">
+<div id="outline-container-org6e06feb" class="outline-2">
+<h2 id="org6e06feb">About</h2>
+<div class="outline-text-2" id="text-org6e06feb">
 <blockquote>
 <p>
 
@@ -35,9 +35,9 @@ I grew up with the Internet. It's a place that feels to me so permanent. I'd lik
 </div>
 </div>
 
-<div id="outline-container-orgb37f9b7" class="outline-2">
-<h2 id="orgb37f9b7">Poems</h2>
-<div class="outline-text-2" id="text-orgb37f9b7">
+<div id="outline-container-org143b91e" class="outline-2">
+<h2 id="org143b91e">Poems</h2>
+<div class="outline-text-2" id="text-org143b91e">
 <ul class="org-ul">
 <li><a href="poems.2024-02-19.html">Something curls knots deep within&#x2026;</a></li>
 <li><a href="poems.2024-02-07.html">They're seldom things but brisk gusts' shrieks&#x2026;</a></li>
@@ -46,9 +46,9 @@ I grew up with the Internet. It's a place that feels to me so permanent. I'd lik
 </div>
 </div>
 
-<div id="outline-container-org2218789" class="outline-2">
-<h2 id="org2218789">Short Stories</h2>
-<div class="outline-text-2" id="text-org2218789">
+<div id="outline-container-orgbc3d42d" class="outline-2">
+<h2 id="orgbc3d42d">Short Stories</h2>
+<div class="outline-text-2" id="text-orgbc3d42d">
 <dl class="org-dl">
 <dt><a href="stories.2021-10-01.html">The Summer Was Over</a></dt><dd>October 2021</dd>
 </dl>
