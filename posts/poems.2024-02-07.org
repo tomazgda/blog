@@ -1,5 +1,5 @@
-#+title: 2024-02-07
-#+subtitle: A little bit of sci-fi
+#+title: A little bit of sci-fi 
+#+date: 2024-02-07
 
 #+begin_verse
 They're seldom things but brisk gusts' shrieks,

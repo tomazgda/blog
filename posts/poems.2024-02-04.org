@@ -1,4 +1,5 @@
 #+title: Rest
+#+date: 2024-02-04
 
 #+begin_verse
 When I rest my troubles steep,

@@ -1,8 +1,5 @@
-#+TITLE: Blog Index
+#+TITLE: My Webpage
 
-- [[file:poems.2024-02-06.org][2024-02-06]]
-- [[file:poems.2024-02-07.org][2024-02-07]]
-- [[file:poems.2024-02-09.org][2024-02-09]]
-- [[file:poems.2024-02-19.org][2024-02-19]]
-- [[file:post_one.org][Post One]]
+- [[file:poems.2024-02-07.org][A little bit of sci-fi]]
+- [[file:poems.2024-02-19.org][Faces]]
 - [[file:poems.2024-02-04.org][Rest]]

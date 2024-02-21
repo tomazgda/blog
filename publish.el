@@ -19,7 +19,8 @@
 (setq org-html-validation-link nil            ;; Don't show validation link
       org-html-head-include-scripts nil       ;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
-      org-html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"https://gongzhitaao.org/orgcss/org.css\"/>")
+      org-html-link-home "index.html"
+      org-html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/site.css\"/>")
 
 ;; Define the publishing project
 (setq org-publish-project-alist
@@ -28,14 +29,21 @@
              :recursive t
              :base-directory "./posts"
 	     :auto-sitemap t
-	     :sitemap-title "Blog Index"
+	     :sitemap-title "My Webpage"
 	     :sitemap-filename "index.org"
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
-	     :author "Tomaz GdA"
+	     :author "Tomaz Geddes de Almeida"
 	     :email "tomaz@taga.org"
              :section-numbers nil       ;; Don't include section numbers
-             :time-stamp-file nil)))    ;; Don't include time stamp in file
+             :time-stamp-file nil)	;; Don't include time stamp in file
+       (list "org-site:css"
+	     :base-directory "./css"
+	     :base-extension "css"
+	     :publishing-directory "./public/css"
+	     :publishing-function 'org-publish-attachment
+	     )
+       ))    
 
 ;; Generate the site output
 (org-publish-all t)
