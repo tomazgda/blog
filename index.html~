@@ -6,8 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>And Another Thing&#x2026;</title>
-<meta name="generator" content="Org mode" />
 <meta name="author" content="Tomaz Geddes de Almeida" />
+<meta name="generator" content="Org Mode" />
 <link rel="stylesheet" type="text/css" href="./css/site.css"/>
 </head>
 <body>
@@ -15,21 +15,21 @@
  <a accesskey="h" href="index.html"> UP </a>
  |
  <a accesskey="H" href="index.html"> HOME </a>
-</div><div id="content">
+</div><div id="content" class="content">
 <h1 class="title">And Another Thing&#x2026;</h1>
-<div id="table-of-contents">
+<div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
-<div id="text-table-of-contents">
+<div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org87d7e87">Poems</a></li>
-<li><a href="#orgdebe0b1">Short Stories</a></li>
+<li><a href="#orga0339f0">Poems</a></li>
+<li><a href="#orgf5fae03">Short Stories</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org87d7e87" class="outline-2">
-<h2 id="org87d7e87">Poems</h2>
-<div class="outline-text-2" id="text-org87d7e87">
+<div id="outline-container-orga0339f0" class="outline-2">
+<h2 id="orga0339f0">Poems</h2>
+<div class="outline-text-2" id="text-orga0339f0">
 <ul class="org-ul">
 <li><a href="poems.2024-02-19.html">Something curls knots deep within&#x2026;</a></li>
 <li><a href="poems.2024-02-07.html">They're seldom things but brisk gusts' shrieks&#x2026;</a></li>
@@ -38,9 +38,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgdebe0b1" class="outline-2">
-<h2 id="orgdebe0b1">Short Stories</h2>
-<div class="outline-text-2" id="text-orgdebe0b1">
+<div id="outline-container-orgf5fae03" class="outline-2">
+<h2 id="orgf5fae03">Short Stories</h2>
+<div class="outline-text-2" id="text-orgf5fae03">
 <ul class="org-ul">
 <li><a href="stories.2021-10-01.html">The Summer Was Over</a></li>
 </ul>
