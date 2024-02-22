@@ -12,17 +12,16 @@
 
 ;; Install dependencies
 (package-install 'htmlize)
-(package-install 'ox-tufte)
+;; (package-install 'ox-tufte)
 
-(require 'ox-tufte)
 (require 'ox-publish)
 
 ;; customize the HTML output
-(setq org-html-validation-link nil            ;; Don't show validation link
-      org-html-head-include-scripts nil       ;; Use our own scripts
+(setq org-html-validation-link nil	;; Don't show validation link
+      org-html-head-include-scripts nil	;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
       org-html-head "
-	<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/site.css\"/>
+	<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/tufte.css\"/>
   	<script src=\"js/main.js\"></script>
 ")
 
@@ -33,11 +32,10 @@
              :recursive t
              :base-directory "./posts"
 	     :auto-sitemap t
-	     :sitemap-filename "sitemap.org" 
+	     :sitemap-filename "sitemap.org"
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
 	     :author "Tomaz Geddes de Almeida"
-	     :email "tomaz@taga.org"
 	     :html-link-up "index.html"
 	     :html-link-home "index.html"
              :section-numbers nil       ;; Don't include section numbers
@@ -46,7 +44,8 @@
 	     :base-directory "./css"
 	     :base-extension "css"
 	     :publishing-directory "./public/css"
-	     :publishing-function 'org-publish-attachment 
+	     :publishing-function 'org-publish-attachment
+	     :htmlized-source t
 	     )
        (list "org-site:js"
 	     :base-directory "./elm"
