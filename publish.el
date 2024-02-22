@@ -36,8 +36,8 @@
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
 	     :author "Tomaz Geddes de Almeida"
-	     :html-link-up "index.html"
-	     :html-link-home "index.html"
+	     :html-link-up "./"
+	     :html-link-home "./"
              :section-numbers nil       ;; Don't include section numbers
              :time-stamp-file nil)	;; Don't include time stamp in file
        (list "org-site:css"
