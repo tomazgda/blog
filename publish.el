@@ -12,7 +12,9 @@
 
 ;; Install dependencies
 (package-install 'htmlize)
+(package-install 'ox-tufte)
 
+(require 'ox-tufte)
 (require 'ox-publish)
 
 ;; customize the HTML output
