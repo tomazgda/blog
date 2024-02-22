@@ -14,15 +14,15 @@
 </head>
 <body>
 <div id="org-div-home-and-up">
- <a accesskey="h" href="index.html"> UP </a>
+ <a accesskey="h" href="./"> UP </a>
  |
- <a accesskey="H" href="index.html"> HOME </a>
+ <a accesskey="H" href="./"> HOME </a>
 </div><div id="content" class="content">
 <h1 class="title">And Another Thing&#x2026;</h1>
 
-<div id="outline-container-orge2f0682" class="outline-2">
-<h2 id="orge2f0682">About</h2>
-<div class="outline-text-2" id="text-orge2f0682">
+<div id="outline-container-orge8cddd3" class="outline-2">
+<h2 id="orge8cddd3">About</h2>
+<div class="outline-text-2" id="text-orge8cddd3">
 <blockquote>
 <p>
 
@@ -42,9 +42,9 @@ I grew up with the Internet. It's a place that feels to me so permanent. I'd lik
 </div>
 </div>
 
-<div id="outline-container-org5e2c007" class="outline-2">
-<h2 id="org5e2c007">Poems</h2>
-<div class="outline-text-2" id="text-org5e2c007">
+<div id="outline-container-orgdd0a1c3" class="outline-2">
+<h2 id="orgdd0a1c3">Poems</h2>
+<div class="outline-text-2" id="text-orgdd0a1c3">
 <dl class="org-dl">
 <dt><a href="poems.2024-02-19.html">Something curls knots deep within&#x2026;</a></dt><dd>February 2024</dd>
 <dt><a href="poems.2024-02-07.html">They're seldom things but brisk gusts' shrieks&#x2026;</a></dt><dd>February 2024</dd>
@@ -53,9 +53,9 @@ I grew up with the Internet. It's a place that feels to me so permanent. I'd lik
 </div>
 </div>
 
-<div id="outline-container-org9083cd9" class="outline-2">
-<h2 id="org9083cd9">Short Stories</h2>
-<div class="outline-text-2" id="text-org9083cd9">
+<div id="outline-container-org9a10f01" class="outline-2">
+<h2 id="org9a10f01">Short Stories</h2>
+<div class="outline-text-2" id="text-org9a10f01">
 <dl class="org-dl">
 <dt><a href="stories.2021-10-01.html">The Summer Was Over</a></dt><dd>October 2021</dd>
 </dl>
