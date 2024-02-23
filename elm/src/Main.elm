@@ -1,4 +1,9 @@
-module Main exposing (..)
+-- Render a spinning cube.
+--
+-- Dependencies:
+--   elm install elm-explorations/linear-algebra
+--   elm install elm-explorations/webgl
+--
 
 import Browser
 import Browser.Events as E
@@ -66,7 +71,7 @@ subscriptions _ =
 view : Model -> Html Msg
 view angle =
   WebGL.toHtml
-    [ width 100, height 100, style "display" "inline"
+    [ width 400, height 400, style "display" "block"
     ]
     [ WebGL.entity vertexShader fragmentShader cubeMesh (uniforms angle)
     ]
