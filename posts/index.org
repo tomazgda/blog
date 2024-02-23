@@ -1,4 +1,4 @@
-#+TITLE: And Another Thing
+#+TITLE: And Another Thing...
 #+OPTIONS: toc:nil
 
 * About
