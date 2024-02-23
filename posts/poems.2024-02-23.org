@@ -10,10 +10,10 @@ Sometimes it's easiest to be calm in a crowded room, or overwhelmed in an empty 
 #+begin_verse
 My love is painted in the dark.
 My eyes drape shut;
-and your scene starts.
-Sparks dance bright.
+your scene starts.
+Sparks dance bright;
 The world fades away.
-I open my eyes;
+I open my eyes,
 and close them again.
 #+end_verse
 
@@ -26,9 +26,9 @@ wrought by a progress I had to make,
 lifts me now to think up-beat.
 Yet heart-beats doubt this new-made peace.
 
-Energy tunes my song too loud.
-A head swole large, a boastfull sound.
-The moment takes me, I listen too scarce
+Energy tunes my song too loud,
+a head swole large, a boastful sound.
+The moment takes me, I listen too scarce;
 I can't hear you, I can barely hear myself.
 #+end_verse
  
