@@ -1,0 +1,31 @@
+#+title: Physics class shorts
+#+date: 2024-02-23
+#+options: toc:nil
+
+* The First 
+#+begin_verse
+My love is painted in the dark.
+My eyes drape shut;
+and your scene starts.
+Sparks dance bright.
+The world fades away.
+I open my eyes;
+and close them again.
+#+end_verse
+
+* The Second
+#+begin_verse
+A melting pot of thoughts today:
+Weighed by notes of joy and shame.
+Music played by yesterday,
+wrought by a progress I had to make,
+lifts me now to think up-beat.
+Yet heart-beats doubt this new-made peace.
+
+Energy tunes my song too loud.
+A head swole large, a boastfull sound.
+The moment takes me, I listen too scarce
+I can't hear you, I can barely hear myself.
+#+end_verse
+ 
+

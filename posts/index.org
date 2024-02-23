@@ -22,7 +22,8 @@ I grew up with the Internet. It's a place that feels to me so permanent. I'd lik
 - [[file:poems.2024-02-19.org][Something curls knots deep within...]] :: February 2024
 - [[file:poems.2024-02-07.org][They're seldom things but brisk gusts' shrieks...]] :: February 2024
 - [[file:poems.2024-02-04.org][When I rest my troubles steep...]] :: February 2024
-
+- [[file:poems.2024-02-23.org][Physics class shorts]] :: February 2024
+  
 * Short Stories
 - [[file:stories.2021-10-01.org][The Summer Was Over]] :: October 2021
 
