@@ -4,6 +4,7 @@
 --   elm install elm-explorations/linear-algebra
 --   elm install elm-explorations/webgl
 --
+module Main exposing(..)
 
 import Browser
 import Browser.Events as E
@@ -71,12 +72,12 @@ subscriptions _ =
 view : Model -> Html Msg
 view angle =
   WebGL.toHtml
-    [ width 400, height 400, style "display" "block"
+    [ width 100, height 100, style "display" "inline"
     ]
     [ WebGL.entity vertexShader fragmentShader cubeMesh (uniforms angle)
     ]
 
-
+      
 type alias Uniforms =
   { rotation : Mat4
   , perspective : Mat4
