@@ -4,32 +4,58 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Sitemap for project org-site:main</title>
 <meta name="generator" content="Org mode" />
 <meta name="author" content="Tomaz Geddes de Almeida" />
-
-	<link rel="stylesheet" type="text/css" href="./css/tufte.css"/>
-  	<script src="js/main.js"></script>
+<link rel='stylesheet' href='./css/tufte.css' />
+<link rel='stylesheet' href='./css/header.css' />
+<script src='js/cube.js'></script>
 </head>
 <body>
-<div id="org-div-home-and-up">
- <a accesskey="h" href="./"> UP </a>
- |
- <a accesskey="H" href="./"> HOME </a>
-</div><div id="content">
+<div id="preamble" class="status">
+<div class="banner">
+
+  <div id="l_app" style="float:left"></div>
+  <a id="myname" href="/">Tomaz Geddes de Almeida</a>
+  <div id="r_app" style="float:left"></div>
+  
+  <hr/>
+  <nav>
+    <p>
+      <a href="/index.html">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/blog-index.html">Writing</a>
+      <a href="https://github.com/tomazgda/">Github</a>
+    </p>
+  </nav>
+</div>
+
+<script>
+  var l_app = Elm.Cube.init({
+      node: document.getElementById('l_app')
+  });
+  var r_app = Elm.Cube.init({
+      node: document.getElementById('r_app')
+  });
+</script>
+</div>
+<div id="content">
 <h1 class="title">Sitemap for project org-site:main</h1>
 <ul class="org-ul">
-<li><a href="index.html">And Another Thing&#x2026;</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="blog-index.html">And Another Thing&#x2026;</a></li>
 <li><a href="poems.2024-02-23.html">Physics class shorts</a></li>
 <li><a href="poems.2024-02-19.html">Something curls knots deep within&#x2026;</a></li>
 <li><a href="stories.2021-10-01.html">The Summer Was Over</a></li>
 <li><a href="poems.2024-02-07.html">They're seldom things but brisk gusts' shrieks&#x2026;</a></li>
 <li><a href="poems.2024-02-04.html">When I rest my troubles steep&#x2026;</a></li>
+<li><a href="index.html">index</a></li>
 </ul>
 </div>
 <div id="postamble" class="status">
-<p class="author">Author: Tomaz Geddes de Almeida</p>
+<hr />
+
+Bring back the blogosphere!
 </div>
 </body>
 </html>

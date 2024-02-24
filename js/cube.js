@@ -7016,10 +7016,10 @@ var $elm$core$Task$perform = F2(
 var $elm$browser$Browser$element = _Browser_element;
 var $elm$core$Platform$Cmd$batch = _Platform_batch;
 var $elm$core$Platform$Cmd$none = $elm$core$Platform$Cmd$batch(_List_Nil);
-var $author$project$Main$init = function (_v0) {
+var $author$project$Cube$init = function (_v0) {
 	return _Utils_Tuple2(0, $elm$core$Platform$Cmd$none);
 };
-var $author$project$Main$TimeDelta = function (a) {
+var $author$project$Cube$TimeDelta = function (a) {
 	return {$: 'TimeDelta', a: a};
 };
 var $elm$browser$Browser$AnimationManager$Delta = function (a) {
@@ -7156,10 +7156,10 @@ var $elm$browser$Browser$AnimationManager$onAnimationFrameDelta = function (tagg
 		$elm$browser$Browser$AnimationManager$Delta(tagger));
 };
 var $elm$browser$Browser$Events$onAnimationFrameDelta = $elm$browser$Browser$AnimationManager$onAnimationFrameDelta;
-var $author$project$Main$subscriptions = function (_v0) {
-	return $elm$browser$Browser$Events$onAnimationFrameDelta($author$project$Main$TimeDelta);
+var $author$project$Cube$subscriptions = function (_v0) {
+	return $elm$browser$Browser$Events$onAnimationFrameDelta($author$project$Cube$TimeDelta);
 };
-var $author$project$Main$update = F2(
+var $author$project$Cube$update = F2(
 	function (msg, angle) {
 		var dt = msg.a;
 		return _Utils_Tuple2(angle + (dt / 5000), $elm$core$Platform$Cmd$none);
@@ -7175,16 +7175,16 @@ var $elm$core$List$append = F2(
 var $elm$core$List$concat = function (lists) {
 	return A3($elm$core$List$foldr, $elm$core$List$append, _List_Nil, lists);
 };
-var $author$project$Main$Vertex = F2(
+var $author$project$Cube$Vertex = F2(
 	function (color, position) {
 		return {color: color, position: position};
 	});
 var $elm_explorations$linear_algebra$Math$Vector3$scale = _MJS_v3scale;
-var $author$project$Main$face = F5(
+var $author$project$Cube$face = F5(
 	function (color, a, b, c, d) {
 		var vertex = function (position) {
 			return A2(
-				$author$project$Main$Vertex,
+				$author$project$Cube$Vertex,
 				A2($elm_explorations$linear_algebra$Math$Vector3$scale, 1 / 255, color),
 				position);
 		};
@@ -7210,7 +7210,7 @@ var $elm_explorations$webgl$WebGL$Mesh3 = F2(
 var $elm_explorations$webgl$WebGL$triangles = $elm_explorations$webgl$WebGL$Mesh3(
 	{elemSize: 3, indexSize: 0, mode: 4});
 var $elm_explorations$linear_algebra$Math$Vector3$vec3 = _MJS_v3;
-var $author$project$Main$cubeMesh = function () {
+var $author$project$Cube$cubeMesh = function () {
 	var rft = A3($elm_explorations$linear_algebra$Math$Vector3$vec3, 1, 1, 1);
 	var rfb = A3($elm_explorations$linear_algebra$Math$Vector3$vec3, 1, 1, -1);
 	var rbt = A3($elm_explorations$linear_algebra$Math$Vector3$vec3, 1, -1, 1);
@@ -7224,42 +7224,42 @@ var $author$project$Main$cubeMesh = function () {
 			_List_fromArray(
 				[
 					A5(
-					$author$project$Main$face,
+					$author$project$Cube$face,
 					A3($elm_explorations$linear_algebra$Math$Vector3$vec3, 115, 210, 22),
 					rft,
 					rfb,
 					rbb,
 					rbt),
 					A5(
-					$author$project$Main$face,
+					$author$project$Cube$face,
 					A3($elm_explorations$linear_algebra$Math$Vector3$vec3, 52, 101, 164),
 					rft,
 					rfb,
 					lfb,
 					lft),
 					A5(
-					$author$project$Main$face,
+					$author$project$Cube$face,
 					A3($elm_explorations$linear_algebra$Math$Vector3$vec3, 237, 212, 0),
 					rft,
 					lft,
 					lbt,
 					rbt),
 					A5(
-					$author$project$Main$face,
+					$author$project$Cube$face,
 					A3($elm_explorations$linear_algebra$Math$Vector3$vec3, 204, 0, 0),
 					rfb,
 					lfb,
 					lbb,
 					rbb),
 					A5(
-					$author$project$Main$face,
+					$author$project$Cube$face,
 					A3($elm_explorations$linear_algebra$Math$Vector3$vec3, 117, 80, 123),
 					lft,
 					lfb,
 					lbb,
 					lbt),
 					A5(
-					$author$project$Main$face,
+					$author$project$Cube$face,
 					A3($elm_explorations$linear_algebra$Math$Vector3$vec3, 245, 121, 0),
 					rbt,
 					rbb,
@@ -7323,7 +7323,7 @@ var $elm_explorations$webgl$WebGL$entityWith = _WebGL_entity;
 var $elm_explorations$webgl$WebGL$entity = $elm_explorations$webgl$WebGL$entityWith(
 	_List_fromArray(
 		[$elm_explorations$webgl$WebGL$Settings$DepthTest$default]));
-var $author$project$Main$fragmentShader = {
+var $author$project$Cube$fragmentShader = {
 	src: '\n    precision mediump float;\n    varying vec3 vcolor;\n    void main () {\n        gl_FragColor = 0.8 * vec4(vcolor, 1.0);\n    }\n  ',
 	attributes: {},
 	uniforms: {}
@@ -7361,7 +7361,7 @@ var $elm_explorations$linear_algebra$Math$Matrix4$makeLookAt = _MJS_m4x4makeLook
 var $elm_explorations$linear_algebra$Math$Matrix4$makePerspective = _MJS_m4x4makePerspective;
 var $elm_explorations$linear_algebra$Math$Matrix4$makeRotate = _MJS_m4x4makeRotate;
 var $elm_explorations$linear_algebra$Math$Matrix4$mul = _MJS_m4x4mul;
-var $author$project$Main$uniforms = function (angle) {
+var $author$project$Cube$uniforms = function (angle) {
 	return {
 		camera: A3(
 			$elm_explorations$linear_algebra$Math$Matrix4$makeLookAt,
@@ -7381,7 +7381,7 @@ var $author$project$Main$uniforms = function (angle) {
 				A3($elm_explorations$linear_algebra$Math$Vector3$vec3, 1, 0, 0)))
 	};
 };
-var $author$project$Main$vertexShader = {
+var $author$project$Cube$vertexShader = {
 	src: '\n    attribute vec3 position;\n    attribute vec3 color;\n    uniform mat4 perspective;\n    uniform mat4 camera;\n    uniform mat4 rotation;\n    varying vec3 vcolor;\n    void main () {\n        gl_Position = perspective * camera * rotation * vec4(position, 1.0);\n        vcolor = color;\n    }\n  ',
 	attributes: {color: 'color', position: 'position'},
 	uniforms: {camera: 'camera', perspective: 'perspective', rotation: 'rotation'}
@@ -7392,26 +7392,26 @@ var $elm$html$Html$Attributes$width = function (n) {
 		'width',
 		$elm$core$String$fromInt(n));
 };
-var $author$project$Main$view = function (angle) {
+var $author$project$Cube$view = function (angle) {
 	return A2(
 		$elm_explorations$webgl$WebGL$toHtml,
 		_List_fromArray(
 			[
-				$elm$html$Html$Attributes$width(100),
-				$elm$html$Html$Attributes$height(100),
+				$elm$html$Html$Attributes$width(30),
+				$elm$html$Html$Attributes$height(30),
 				A2($elm$html$Html$Attributes$style, 'display', 'inline')
 			]),
 		_List_fromArray(
 			[
 				A4(
 				$elm_explorations$webgl$WebGL$entity,
-				$author$project$Main$vertexShader,
-				$author$project$Main$fragmentShader,
-				$author$project$Main$cubeMesh,
-				$author$project$Main$uniforms(angle))
+				$author$project$Cube$vertexShader,
+				$author$project$Cube$fragmentShader,
+				$author$project$Cube$cubeMesh,
+				$author$project$Cube$uniforms(angle))
 			]));
 };
-var $author$project$Main$main = $elm$browser$Browser$element(
-	{init: $author$project$Main$init, subscriptions: $author$project$Main$subscriptions, update: $author$project$Main$update, view: $author$project$Main$view});
-_Platform_export({'Main':{'init':$author$project$Main$main(
+var $author$project$Cube$main = $elm$browser$Browser$element(
+	{init: $author$project$Cube$init, subscriptions: $author$project$Cube$subscriptions, update: $author$project$Cube$update, view: $author$project$Cube$view});
+_Platform_export({'Cube':{'init':$author$project$Cube$main(
 	$elm$json$Json$Decode$succeed(_Utils_Tuple0))(0)}});}(this));
