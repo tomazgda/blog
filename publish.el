@@ -18,6 +18,7 @@
 ;; define headers, footers and ensure that the right style sheets are used
 (setq my-blog-extra-head
       (concat
+       "<meta name='viewport' content='width=device-width, initial-scale=1'>\n"
        "<link rel='stylesheet' href='./css/tufte.css' />\n"
        "<link rel='stylesheet' href='./css/header.css' />\n"
        "<script src='js/cube.js'></script>"
