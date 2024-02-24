@@ -5,8 +5,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <title>The Summer Was Over</title>
-<meta name="generator" content="Org mode" />
 <meta name="author" content="Tomaz Geddes de Almeida" />
+<meta name="generator" content="Org Mode" />
 <link rel='stylesheet' href='./css/tufte.css' />
 <link rel='stylesheet' href='./css/header.css' />
 <script src='js/cube.js'></script>       <!-- Google tag (gtag.js) -->
@@ -46,7 +46,7 @@
   });
 </script>
 </div>
-<div id="content">
+<div id="content" class="content">
 <h1 class="title">The Summer Was Over</h1>
 <p class="subtitle">2021-10-01</p>
 
