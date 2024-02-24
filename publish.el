@@ -23,7 +23,7 @@
        "<script src='js/cube.js'></script>"
        ))
 
-(setq my-blog-header-file "./templates/header.html")
+(setq my-blog-header-file "../templates/header.html")
 (defun my-blog-header (arg)
   (with-temp-buffer
     (insert-file-contents my-blog-header-file)
