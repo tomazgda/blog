@@ -12,7 +12,7 @@
 * What is this? 
 
 #+begin_quote
-A dumb site for thoughts, poems and stories: more than anything, these are an exercsie in learning.. but I hope you enjoy at least some of them.
+A dump site for thoughts, poems and stories: more than anything, these are an exercsie in learning.. but I hope you enjoy at least some of them.
 
 # I grew up with the Internet. It's a place that feels to me so permanent. I'd like, in that permanence, some of myself to be reflected. Like everyone, I have things to say - and I want to say them somewhere. That's what this is, or at least what I intend it to be. Some things may not be good; some I hope will be. In all likelihood, like everything, they'll come out a mixed bag. Thoughts, poems, stories: these are my things. And I hope you enjoy them! 
 
