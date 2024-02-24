@@ -23,7 +23,7 @@
        "<script src='js/cube.js'></script>"
        ))
 
-(setq my-blog-header-file "~/blog/templates/header.html")
+(setq my-blog-header-file "./templates/header.html")
 (defun my-blog-header (arg)
   (with-temp-buffer
     (insert-file-contents my-blog-header-file)
@@ -60,12 +60,6 @@ Bring back the blogosphere!")
              :html-postamble my-blog-footer
 	     :with-toc nil
 	     :with-date t
-	     )
-       (list "org-site:html"
-	     :base-directory "./templates"
-	     :base-extension "html"
-	     :publishing-directory "./public/templates"
-	     :publishing-function 'org-publish-attachment
 	     )
        (list "org-site:css"
 	     :base-directory "./css"
