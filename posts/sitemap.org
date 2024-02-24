@@ -1,8 +1,10 @@
 #+TITLE: Sitemap for project org-site:main
 
-- [[file:index.org][And Another Thing...]]
+- [[file:about.org][About]]
+- [[file:blog-index.org][And Another Thing...]]
 - [[file:poems.2024-02-23.org][Physics class shorts]]
 - [[file:poems.2024-02-19.org][Something curls knots deep within...]]
 - [[file:stories.2021-10-01.org][The Summer Was Over]]
 - [[file:poems.2024-02-07.org][They're seldom things but brisk gusts' shrieks...]]
 - [[file:poems.2024-02-04.org][When I rest my troubles steep...]]
+- [[file:index.org][index]]

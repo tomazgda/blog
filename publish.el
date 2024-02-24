@@ -12,18 +12,26 @@
 
 ;; Install dependencies
 (package-install 'htmlize)
-;; (package-install 'ox-tufte)
 
 (require 'ox-publish)
 
-;; customize the HTML output
-(setq org-html-validation-link nil	;; Don't show validation link
-      org-html-head-include-scripts nil	;; Use our own scripts
-      org-html-head-include-default-style nil ;; Use our own styles
-      org-html-head "
-	<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/tufte.css\"/>
-  	<script src=\"js/main.js\"></script>
-")
+;; define headers, footers and ensure that the right style sheets are used
+(setq my-blog-extra-head
+      (concat
+       "<link rel='stylesheet' href='./css/tufte.css' />\n"
+       "<link rel='stylesheet' href='./css/header.css' />\n"
+       "<script src='js/cube.js'></script>"
+       ))
+
+(setq my-blog-header-file "~/blog/templates/header.html")
+(defun my-blog-header (arg)
+  (with-temp-buffer
+    (insert-file-contents my-blog-header-file)
+    (buffer-string)))
+
+(setq my-blog-footer
+"<hr />\n
+Bring back the blogosphere!")
 
 ;; Define the publishing project
 (setq org-publish-project-alist
@@ -36,10 +44,25 @@
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
 	     :author "Tomaz Geddes de Almeida"
-	     :html-link-up "./"
-	     :html-link-home "./"
              :section-numbers nil       ;; Don't include section numbers
-             :time-stamp-file nil)	;; Don't include time stamp in file
+             :time-stamp-file nil	;; Don't include time stamp in file
+	     
+	     ;; the following removes extra headers from HTML output -- important!
+	     :html-link-home "/"
+	     :html-head nil ;; cleans up anything that would have been in there.
+	     :html-head-extra my-blog-extra-head
+	     :html-head-include-default-style nil
+	     :html-head-include-scripts nil
+	     :html-viewport nil
+	     :html-link-up ""
+             :html-link-home ""
+             :html-preamble 'my-blog-header
+             :html-postamble my-blog-footer
+	     :with-toc nil
+	     :with-date t
+	     )
+
+       
        (list "org-site:css"
 	     :base-directory "./css"
 	     :base-extension "css"

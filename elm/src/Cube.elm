@@ -4,7 +4,7 @@
 --   elm install elm-explorations/linear-algebra
 --   elm install elm-explorations/webgl
 --
-module Main exposing(..)
+module Cube exposing(..)
 
 import Browser
 import Browser.Events as E
@@ -72,7 +72,7 @@ subscriptions _ =
 view : Model -> Html Msg
 view angle =
   WebGL.toHtml
-    [ width 100, height 100, style "display" "inline"
+    [ width 30, height 30, style "display" "inline"
     ]
     [ WebGL.entity vertexShader fragmentShader cubeMesh (uniforms angle)
     ]

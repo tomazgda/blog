@@ -1,5 +1,7 @@
 #+title: Something curls knots deep within...
-#+date: 2024-02-19
+#+begin_export html
+<p class="subtitle">2024-02-19</p>
+#+end_export
 
 # oscilating lines between internal and external.
 # couplet of thought 

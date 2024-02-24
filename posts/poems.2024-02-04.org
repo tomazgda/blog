@@ -1,5 +1,7 @@
 #+title: When I rest my troubles steep...
-#+date: 2024-02-04
+#+begin_export html
+<p class="subtitle">2024-02-04</p>
+#+end_export
 
 #+begin_verse
 When I rest my troubles steep,
@@ -7,7 +9,7 @@ A breath of air, a wink of sleep.
 A blip of fun, an interlude
 Too much! My thoughts will catch me.
 
-To recline / to end today,
+To recline: to end today,
 reserves tomorrow; an arranged disgrace
 I cannot bear that thoughtful sight - 
 A scream: betrayal crying out my eyes

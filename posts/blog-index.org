@@ -1,0 +1,28 @@
+#+TITLE: And Another Thing...
+
+#+begin_export html
+<div class="epigraph">
+  <blockquote>
+    <p>It is impossible to be a mathematician without being a poet in soul..</p>
+    <footer>Sofia Kovalevskaya, <i>A Russian Childhood</i></footer>
+  </blockquote>
+</div> 
+#+end_export
+
+* What is this? 
+
+#+begin_quote
+A dumb site for thoughts, poems and stories: more than anything, these are an exercsie in learning.. but I hope you enjoy at least some of them.
+
+# I grew up with the Internet. It's a place that feels to me so permanent. I'd like, in that permanence, some of myself to be reflected. Like everyone, I have things to say - and I want to say them somewhere. That's what this is, or at least what I intend it to be. Some things may not be good; some I hope will be. In all likelihood, like everything, they'll come out a mixed bag. Thoughts, poems, stories: these are my things. And I hope you enjoy them! 
+
+#+end_quote
+
+* Poems 
+- [[file:poems.2024-02-23.org][Physics class shorts]] :: February 2024
+- [[file:poems.2024-02-19.org][Something curls knots deep within...]] :: February 2024
+- [[file:poems.2024-02-07.org][They're seldom things but brisk gusts' shrieks...]] :: February 2024
+- [[file:poems.2024-02-04.org][When I rest my troubles steep...]] :: February 2024
+  
+* Short Stories
+- [[file:stories.2021-10-01.org][The Summer Was Over]] :: October 2021

@@ -1,6 +1,7 @@
 #+title: Physics class shorts
-#+date: 2024-02-23
-#+options: toc:nil
+#+begin_export html
+<p class="subtitle">2024-02-23</p>
+#+end_export
 
 #+begin_quote
 Sometimes it's easiest to be calm in a crowded room, or overwhelmed in an empty one; sometimes it's easiest to study physics in my free time, and write poetry in my physics classes.

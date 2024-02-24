@@ -1,28 +1,16 @@
-#+TITLE: And Another Thing...
-#+OPTIONS: toc:nil
-
-* About
-
-#+begin_quote
-
-I grew up with the Internet. It's a place that feels to me so permanent. I'd like, in that permanence, some of myself to be reflected. Like everyone, I have things to say - and I want to say them somewhere. That's what this is, or at least what I intend it to be. Some things may not be good; some I hope will be. In all likelihood, like everything, they'll come out a mixed bag. Thoughts, poems, stories: these are my things. And I hope you enjoy them! 
-
-#+end_quote
-
 #+begin_export html
-<div id="myapp"></div>
-  <script>
-  var app = Elm.Main.init({
-    node: document.getElementById('myapp')
-  });
-  </script>
+<div class="epigraph">
+  <blockquote>
+    <p>Just move to the Internet, it's great here. We get to live inside where the weather is always awesome.</p>
+    <footer>John Green, <i>Tumblr</i></footer>
+  </blockquote>
+</div> 
 #+end_export
 
-* Poems 
-- [[file:poems.2024-02-23.org][Physics class shorts]] :: 23^rd February 2024
-- [[file:poems.2024-02-19.org][Something curls knots deep within...]] :: 19^th February 2024
-- [[file:poems.2024-02-07.org][They're seldom things but brisk gusts' shrieks...]] :: 7^th February 2024
-- [[file:poems.2024-02-04.org][When I rest my troubles steep...]] :: 4^th February 2024
-  
-* Short Stories
-- [[file:stories.2021-10-01.org][The Summer Was Over]] :: October 2021
+* Welcome!
+...to my website. It's quite new so expect a lot to change.
+
+* What can I do now?
+- Read some not-very-good writing [[file:blog-index.org][here]].
+- (Complain about it [[mailto:tomaz@tagad.org][here]]).
+

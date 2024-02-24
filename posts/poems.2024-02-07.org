@@ -1,5 +1,8 @@
 #+title: They're seldom things but brisk gusts' shrieks...
-#+date: 2024-02-07
+#+begin_export html
+<p class="subtitle">2024-02-07</p>
+#+end_export
+
 
 #+begin_verse
 They're seldom things but brisk gusts' shrieks,

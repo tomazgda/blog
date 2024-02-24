@@ -1,0 +1,27 @@
+#myname {
+    font-size:250%;
+    font-style:normal;
+    font-weight:bold;
+    line-height:1;
+
+    /* do not underline link */
+    background: unset;
+    text-shadow: unset;
+}
+
+.banner nav {
+    font-size:130%;
+    font-weight:bold;
+    line-height:1
+}
+
+.banner p {
+    word-spacing:0.5em;
+    margin:0 0 0 0
+}
+
+.banner nav a {
+    height:30px;
+}
+
+
