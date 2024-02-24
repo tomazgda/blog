@@ -7,6 +7,10 @@
 An old draft of English course work I found. Unedited, it's a bit rough. I think there's value though in keeping old work somewhere. So here it is. 
 #+end_quote
 
+#+begin_export html
+<section>
+#+end_export
+
 The docks were all Chidi knew; he saw them as his home, however ironic that may be. After all, they were a base of His Majesty’s navy: certainly a home more grandiose than Chidi deserved. For that, he was grateful.
 
 He took on factory work young; his mother needed care. Overhearing the doctor’s strong words, Chidi listened, startled: "Get your act together woman. For heaven’s sake you have a boy to look after." He was an incorrigible man, Chidi reflected. His mother need not look after him; he was not the subject of concern. That was his mother, who he took care of. Chidi never felt appreciated for this. As his mild infuriation peaked, his mother stormed out of the practice, dragging him with her.
@@ -22,3 +26,7 @@ Chidi stepped into the building beneath the dockyard’s semaphore tower. Ignora
 To him reached out the arm of a woman consumed in exhaust, choking on her fumes.
 
 /The Summer Was Over./
+
+#+begin_export html
+</section>
+#+end_export
