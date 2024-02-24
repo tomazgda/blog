@@ -21,6 +21,16 @@
        "<link rel='stylesheet' href='./css/tufte.css' />\n"
        "<link rel='stylesheet' href='./css/header.css' />\n"
        "<script src='js/cube.js'></script>"
+       "       <!-- Google tag (gtag.js) -->
+       <script async src='https://www.googletagmanager.com/gtag/js?id=G-LXHEWSS0SC'></script>
+       <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+
+       gtag('config', 'G-LXHEWSS0SC');
+       </script>"
+
        ))
 
 (setq my-blog-header-file "../templates/header.html")
