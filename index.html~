@@ -29,7 +29,7 @@
   <hr/>
   <nav>
     <p>
-      <a href="./">Home</a>
+      <a href="/">Home</a>
       <a href="/about.html">About</a>
       <a href="/blog-index.html">Writing</a>
       <a href="https://github.com/tomazgda/">Github</a>
@@ -54,18 +54,18 @@
   </blockquote>
 </div> 
 
-<div id="outline-container-org60e2dd5" class="outline-2">
-<h2 id="org60e2dd5">Welcome!</h2>
-<div class="outline-text-2" id="text-org60e2dd5">
+<div id="outline-container-org94a6f77" class="outline-2">
+<h2 id="org94a6f77">Welcome!</h2>
+<div class="outline-text-2" id="text-org94a6f77">
 <p>
 &#x2026;to my website. It's quite new so expect a lot to change.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org47cea8a" class="outline-2">
-<h2 id="org47cea8a">What can I do now?</h2>
-<div class="outline-text-2" id="text-org47cea8a">
+<div id="outline-container-org35a9cf7" class="outline-2">
+<h2 id="org35a9cf7">What can I do now?</h2>
+<div class="outline-text-2" id="text-org35a9cf7">
 <ul class="org-ul">
 <li>Read some not-very-good writing <a href="blog-index.html">here</a>.</li>
 <li>(Complain about it <a href="mailto:tomaz@tagad.org">here</a>).</li>
