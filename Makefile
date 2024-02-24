@@ -3,8 +3,8 @@
 all: publish
 
 publish: publish.el elm/src/Cube.elm
-	@echo "Compiling Elm to Javascript"
-	cd elm && elm make src/Cube.elm --output=cube.js && cd ..
+	# @echo "Compiling Elm to Javascript"
+	# cd elm && elm make src/Cube.elm --output=cube.js && cd ..
 	@echo "Publishing... with --no-init."
 	emacs -Q --script publish.el
 
