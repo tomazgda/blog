@@ -61,14 +61,17 @@ Bring back the blogosphere!")
 	     :with-toc nil
 	     :with-date t
 	     )
-
-       
+       (list "org-site:html"
+	     :base-directory "./templates"
+	     :base-extension "html"
+	     :publishing-directory "./public/templates"
+	     :publishing-function 'org-publish-attachment
+	     )
        (list "org-site:css"
 	     :base-directory "./css"
 	     :base-extension "css"
 	     :publishing-directory "./public/css"
 	     :publishing-function 'org-publish-attachment
-	     :htmlized-source t
 	     )
        (list "org-site:js"
 	     :base-directory "./elm"
