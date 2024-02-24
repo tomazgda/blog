@@ -1,6 +1,6 @@
 #+TITLE: Sitemap for project org-site:main
 
-- [[file:index.org][And Another Thing]]
+- [[file:index.org][And Another Thing...]]
 - [[file:poems.2024-02-23.org][Physics class shorts]]
 - [[file:poems.2024-02-19.org][Something curls knots deep within...]]
 - [[file:stories.2021-10-01.org][The Summer Was Over]]
