@@ -12,5 +12,5 @@
 
 * What can I do now?
 - Read some not-very-good writing [[file:blog-index.org][here]].
-- (Complain about it [[mailto:tomaz@tagad.org][here]]).
+- (Complain about it [[mailto:tomaz@tagda.org][here]]).
 
