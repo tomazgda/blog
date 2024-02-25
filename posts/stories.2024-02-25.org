@@ -1,0 +1,31 @@
+#+title: /Coming Soon/ Resistance in Flatland
+#+begin_export html
+<p class="subtitle">2024-02-25</p>
+#+end_export
+
+# noble polygon in education; incites revolution with an outspoken woman - because I wouldn't be able to write well from her perspective.
+
+#+begin_export html
+<div class="epigraph">
+  <blockquote>
+    <p>Yet at least we can admire the wise Prearrangement which has ordained that, as they have no hopes, so they shall have no memory to recall, and no forethought to anticipate, the miseries and humiliations which are at once a necessity of their existence and the basis of the consitution of Flatland.</p>
+    <footer>Edwin A. Abbott, on women, <em>Flatland: A Romance of Many Dimensions</em></footer>
+  </blockquote>
+</div> 
+#+end_export
+
+#+begin_export html
+<section>
+#+end_export
+
+#+begin_export html
+<figure>
+ <label for="mn-exports-imports" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-exports-imports" class="margin-toggle"/><span class="marginnote">From Edwin A. Abbott, <em>Flatland: A Romance of Many Dimensions</em>, page 7.</span>
+ <img src="./images/flatland_doors.jpg" alt="The design of a house in Flatland" />
+ </figure>	
+#+end_export
+
+#+begin_export html
+</section>
+#+end_export
+

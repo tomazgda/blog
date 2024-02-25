@@ -50,39 +50,34 @@ Bring back the blogosphere!")
        (list "org-site:main"
              :recursive t
              :base-directory "./posts"
-	     :auto-sitemap t
-	     :sitemap-filename "sitemap.org"
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
-	     :author "Tomaz Geddes de Almeida"
-             :section-numbers nil       ;; Don't include section numbers
-             :time-stamp-file nil	;; Don't include time stamp in file
+	     :with-toc nil
+	     :section-numbers nil
 	     
 	     ;; the following removes extra headers from HTML output -- important!
-	     :html-link-home "/"
 	     :html-head nil ;; cleans up anything that would have been in there.
 	     :html-head-extra my-blog-extra-head
 	     :html-head-include-default-style nil
 	     :html-head-include-scripts nil
-	     :html-viewport nil
-	     :html-link-up ""
-             :html-link-home ""
              :html-preamble 'my-blog-header
              :html-postamble my-blog-footer
-	     :with-toc nil
-	     :with-date t
 	     )
        (list "org-site:css"
 	     :base-directory "./css"
 	     :base-extension "css"
 	     :publishing-directory "./public/css"
-	     :publishing-function 'org-publish-attachment
-	     )
+	     :publishing-function 'org-publish-attachment)
        (list "org-site:js"
 	     :base-directory "./elm"
 	     :base-extension "js"
 	     :publishing-directory "./public/js"
-	     :publishing-function 'org-publish-attachment )
+	     :publishing-function 'org-publish-attachment)
+       (list "org-site:images"
+	     :base-directory "./posts/images"
+	     :base-extension "png\\|jpg"
+	     :publishing-directory "./public/images"
+	     :publishing-function 'org-publish-attachment)
        ))    
 
 ;; Generate the site output

@@ -1,10 +1,11 @@
 #+TITLE: And Another Thing...
+#+OPTIONS: toc:t
 
 #+begin_export html
 <div class="epigraph">
   <blockquote>
     <p>It is impossible to be a mathematician without being a poet in soul..</p>
-    <footer>Sofia Kovalevskaya, <i>A Russian Childhood</i></footer>
+    <footer>Sofia Kovalevskaya, <em>A Russian Childhood</em></footer>
   </blockquote>
 </div> 
 #+end_export
@@ -25,4 +26,8 @@ A dump site for thoughts, poems and stories: more than anything, these are an ex
 - [[file:poems.2024-02-04.org][When I rest my troubles steep...]] :: February 2024
   
 * Short Stories
+- /Coming Soon/ [[file:stories.2024-02-25.org][Resistance in Flatland]] :: February 2024
 - [[file:stories.2021-10-01.org][The Summer Was Over]] :: October 2021
+
+* Learning to Make
+- /Coming Soon/ [[file:thoughts.2024-02-25.org][Coffee]] :: February 2024

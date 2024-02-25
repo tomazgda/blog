@@ -1,0 +1,9 @@
+#+title: /Coming Soon/ Coffee
+
+#+begin_export html
+<figure>
+<label for="mn-exports-imports" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-exports-imports" class="margin-toggle"/><span class="marginnote">From Bex Walton, <a href="https://www.flickr.com/photos/bexwalton/51333376222/">Flickr</a></span>
+<img src="./images/Latte_and_dark_coffee.jpg" alt="A latte and a black coffee" />
+</figure>
+	
+#+end_export

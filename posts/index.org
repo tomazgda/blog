@@ -2,7 +2,7 @@
 <div class="epigraph">
   <blockquote>
     <p>Just move to the Internet, it's great here. We get to live inside where the weather is always awesome.</p>
-    <footer>John Green, <i>Tumblr</i></footer>
+    <footer>John Green, <em>Tumblr</em></footer>
   </blockquote>
 </div> 
 #+end_export
