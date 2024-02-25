@@ -3,10 +3,13 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
+<!-- 2024-02-25 Sun 13:31 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>The Summer Was Over</title>
-<meta name="author" content="Tomaz Geddes de Almeida" />
+<meta name="author" content="tomaz" />
 <meta name="generator" content="Org Mode" />
+<meta name='viewport' content='width=device-width, initial-scale=1'>
 <link rel='stylesheet' href='./css/tufte.css' />
 <link rel='stylesheet' href='./css/header.css' />
 <script src='js/cube.js'></script>       <!-- Google tag (gtag.js) -->
@@ -52,9 +55,11 @@
 
 <blockquote>
 <p>
-An old draft of English course work I found. Unedited, it's a bit rough. I think there's value though in keeping old work somewhere. So here it is. 
+An old draft of English course work I found, linked loosely with <a href="https://en.wikipedia.org/wiki/Suffragette_bombing_and_arson_campaign">The Suffragette Arson Campaign</a>. I think there's value though in keeping old work somewhere. So here it is. 
 </p>
 </blockquote>
+
+<section>
 
 <p>
 The docks were all Chidi knew; he saw them as his home, however ironic that may be. After all, they were a base of His Majesty’s navy: certainly a home more grandiose than Chidi deserved. For that, he was grateful.
@@ -87,6 +92,8 @@ To him reached out the arm of a woman consumed in exhaust, choking on her fumes.
 <p>
 <i>The Summer Was Over.</i>
 </p>
+
+</section>
 </div>
 <div id="postamble" class="status">
 <hr />
