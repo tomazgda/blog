@@ -10,7 +10,7 @@
 * Welcome!
 ...to my website. It's quite new so expect a lot to change.
 
-* What can I do now?
+* What can you do now?
 - Read some /not-very-good-but-I-am-still-proud-of-it/ writing [[file:blog-index.org][here]].
 - (Complain about it [[mailto:tomaz@tagda.org][here]]).
 
