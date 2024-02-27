@@ -19,7 +19,9 @@ A dump site for thoughts, poems and stories: more than anything, these are an ex
 
 #+end_quote
 
-* Poems 
+* Poems
+- [[file:poems.2024-02-27(2).org][An abominated growth sprung from a withered seed...]] :: February 2024
+- [[file:poems.2024-02-27.org][Time is free to work woe or wonder...]] :: February 2024
 - [[file:poems.2024-02-23.org][Physics class shorts]] :: February 2024
 - [[file:poems.2024-02-19.org][Something curls knots deep within...]] :: February 2024
 - [[file:poems.2024-02-07.org][They're seldom things but brisk gusts' shrieks...]] :: February 2024

@@ -1,0 +1,37 @@
+#+title: An abominated growth sprung from a withered seed...
+#+begin_export html
+<p class="subtitle">2024-02-27</p>
+#+end_export
+
+#+ATTR_HTML: :width 25%
+[[./images/carbon-based-machine.jpg]]
+
+#+begin_verse
+An abominated growth sprung from a withered seed.
+Wilted tendrils lashed about its base,
+hoisted an awe to history: a figure so obscene
+was the carbon-based machine.
+
+A plea of light struck the beast.
+- In vein it did seem -
+As the thing retorted
+with such natural shades of green.
+Wrought from hell this was.
+The carbon-based machine.
+
+Sequences of stems contorted,
+dancing hideous scenes.
+Sinful sap spewed out orifices unseen,
+basting those with such misfortune
+to pass the carbon-based machine.
+
+It carried jaws sprung with tension,
+lined with fate and sealed in death.
+Restless souls found to it their way
+and prompty buried their lives they left.
+
+Bitter oils coaxed its malice.
+Vibrating hairs released shrill screams.
+Corpses piled to build its palace.
+So onwards grew the carbon-based machine.
+#+end_verse
