@@ -32,4 +32,4 @@ A dump site for thoughts, poems and stories: more than anything, these are an ex
 - [[file:stories.2021-10-01.org][The Summer Was Over]] :: October 2021
 
 * Learning to Make
-- /Coming Soon/ [[file:thoughts.2024-02-25.org][Coffee]] :: February 2024
+- [[file:thoughts.2024-02-25.org][Coffee]] :: February 2024
