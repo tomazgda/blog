@@ -1,9 +1,141 @@
-#+title: /Coming Soon/ Coffee
+#+title: Coffee
+#+begin_export html
+<p class="subtitle">2024-02-27 : 2024-02-28</p>
+#+end_export
 
 #+begin_export html
 <figure>
 <label for="mn-exports-imports" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-exports-imports" class="margin-toggle"/><span class="marginnote">From Bex Walton, <a href="https://www.flickr.com/photos/bexwalton/51333376222/">Flickr</a></span>
 <img src="./images/Latte_and_dark_coffee.jpg" alt="A latte and a black coffee" />
-</figure>
-	
+</figure>	
 #+end_export
+
+#+begin_export html
+<section>
+#+end_export
+I should be clear: I do not know how to make good coffee. With that out of the way, here is why and how I have been trying to.
+#+begin_export html
+</section>
+#+end_export
+
+* Why Coffee?
+
+#+begin_export html
+<section>
+#+end_export
+
+I love to tinker. Frequently I will look at my room underwhelmed: draw up a redesign, shift my bed, drill holes through my desk, reposition plants and shelves until, at least for the moment, I am satisfied. The aim is to improve things; that's not a unique goal but it's why I feel so fondly for coffee.
+
+Months ago I was inducted into the coffee world by [[https://youtu.be/Z-iNAyu-ejo?si=IUbia9qarLsyNmeQ][a Tom Scott video]]. In it, Tom is joined by ex-professional barista James Hoffman who imparts his knowledge (and more importantly enthusiasm) onto Tom and the audience - Me! While watching I couldn't help but wonder...
+
+/Why does this man like coffee so much?/
+
+His love seemed untoward. Too trivial a thing to be engrossed so much by...
+
+/Coffee is just a drink!/ I thought.
+
+That was Tom's predisposition too. But through the process I think his view was swung. That sparked my interest.
+
+I learned that coffee has a complex profile, like the design of a room. Elements within it can complement or conflict, these subject to a skill that I can continuously improve. Coffee I can tinker with, ruin or perfect. And at the end of the process my reward is that it can be shared.
+
+#+begin_export html
+</section>
+#+end_export
+
+* What Coffee?
+#+begin_export html
+<section>
+#+end_export
+/How To Make Coffee/, by Lani Kingston, is my source on the subject.
+
+Kingston describes her book as:
+#+begin_quote
+An explanation of the scientific principles behind the art of coffee making, with clear step-by-step instructions explaining how all the major coffee-making methods work.
+#+end_quote
+
+It is seriously scientific and thorough. The understanding of coffee I extracted from it is not, but still better than before. I can now tell you to make coffee, one should:
+
+1) Grow a tree of the species /Arabica/ or /Canephora/.
+2) Gather the fruits it bears: your unroasted green coffee beans.
+3) Roast the beans *to some temperature*
+4) Then *to some coarseness* grind *some mass* of them.
+5) Steep the grind in water for *some length of time*.
+6) Or push through it water of *some mass* under *some pressure* for again *some length of time*. /In the case of espresso./
+
+/What is espresso?/
+
+#+begin_quote
+Espresso is what's made when water is forced through coffee grounds under a high pressure. In this process, the resultant coffee is more concentrated and, as high pressures cause fats in the coffee to emulsify, a golden foam /crema/ is produced on the surface of the drink.
+#+end_quote
+
+If that process doesn't make sense, it's because it's incomplete. There are a thousand ways to make the final cup of coffee and though unless you live in the coffee belt it is unlikely you'll need to takes steps 1 and 2 or even 3, making coffee still involves a great deal of ambiguity.
+
+#+begin_export html
+<figure>
+<label for="mn-exports-imports" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-exports-imports" class="margin-toggle"/><span class="marginnote">From Lani Kingston, <em>How to Make Coffee</em></span>
+<img src="./images/bean-belt.jpg" alt="The Bean Belt" />
+</figure>	
+#+end_export
+
+#+begin_export html
+</section>
+#+end_export
+
+* How Coffee?
+#+begin_export html
+<section>
+#+end_export
+
+#+begin_quote
+I use an espresso machine.
+#+end_quote
+
+#+ATTR_HTML: :width 50%
+[[./images/sage-machine.png]]
+
+/How to Make Coffee/ is a fantastic resource, though its technical information on espresso is limited. For that I go back to James Hoffman. In particular, his [[https://www.youtube.com/watch?v=aTFsBqhpLes&list=PLxz0FjZMVOl3MuAzK5l3gjakoOGrmK8fP][seven part series]] on dialing in espresso.
+
+/What's dialing in?/
+
+#+begin_quote
+Dialing in means making incremental changes to the variables involved in espresso. 
+#+end_quote
+
+Here's how that process unfolded for me:
+
+#+begin_export html
+<p><label for="mn-figure-1" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-figure-1" class="margin-toggle"/><span class="marginnote"><img src="./images/portafilter.png" alt="Image of a portafilter"/><em>A Portafilter</em></span>I started with 7g of coffee grounds <em>a single shot</em> which my espresso machine extracted in 10s, producing 30g of water. Inspecting the portafilter afterwards, the grounds had formed a water-logged mush. This is a bad sign! The coffee was frankly not-good; notably, it was sour. What had happened is called under-extraction: not enough soluble coffee compounds had dissolved in the water.</p>
+#+end_export
+
+#+ATTR_HTML: :width 40%
+[[./images/extraction.jpg]]
+
+I therefore needed to grind finer, to increase the surface area of the grounds and thus the rate at which they dissolve, or grind more to increase the pressure, decreasing the rate of the flow of water, increasing extraction. I did both: grinding finer and more in varying measures until I reached better coffee.
+
+I now grind 11g of coffee into my single-shot-sized portafilter, at a coarseness of (forgive my arbitrary units) /5/ on my Sage Barista express. This produces 30g of coffee in 20 seconds, and tastes remarkably better than it used to.
+
+That's been my coffee experience so far. There is more (so much more!)... a good example are the beans you buy... but with that and the rest I haven't had time yet to experiment.
+
+All in all here are my two cents:
+
+- Use scales when measuring masses
+- Record your readings
+- Have fun
+- And if you want to be good, take your coffee advice from someone other than me.
+
+#+begin_export html
+</section>
+#+end_export
+
+* COMMENT What do I want to say.
+
+- This should be a personal interpretation of existing coffee guides and "How to make Coffee"
+- Focus on espresso
+- Don't go too far too quickly with coffee enthusiasm.
+
+- Grind amount, courseness, scales
+- James Hoffman
+
+- espresso
+- diling in
+- it tastes do good!
