@@ -31,6 +31,7 @@ A dump site for thoughts, poems and stories: more than anything, these are an ex
   
 * Short Stories
 - /Coming Soon/ [[file:stories.2024-02-25.org][Resistance in Flatland]] :: February 2024
+- [[file:stories.2022-01-23.org][Something I found]] :: January 2022
 - [[file:stories.2021-10-01.org][The Summer Was Over]] :: October 2021
 
 * Learning to Make
