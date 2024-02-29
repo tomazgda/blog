@@ -4,7 +4,7 @@
 #+end_export
 
 #+begin_quote
-I've got some idea where I want this to go. Not enough though to make it fun to write without the kind of thinking you do when you're stuck and on a deadline. I'm not on a deadline; I do not mind when this is done. So, until I'm siezed by intrigue, this will stay here incomplete.
+I’ve got some idea where I want this to go. Not enough though to make it fun to write without the kind of thinking you do when you’re stuck and on a deadline. I’m not on a deadline; I do not mind when this is done. So, until I’m siezed by intrigue, this will stay here incomplete.
 #+end_quote
 
 #+begin_verse
@@ -14,9 +14,9 @@ the pleated streak of spectral fire that announced his rite on earth.
 As he emerged, bewildering me, in a starless night I searched.
 
 Buried in his destructed craft, illuminated by light I shone,
-lept from debris, he siezed my torch. We jostled before it tripped.
+leapt from debris, he siezed my torch. We jostled before it tripped.
 I was struck scared, cursered under my breath but settled me did his:
-A friendly heat in the dark: offerings of amnisty. 
+A friendly heat in the dark: offerings of amnesty. 
 
 A spaceman came travelling, of a world beheld by death.
 I craned my neck to inspect him as moonlight bloomed his breath.
@@ -57,8 +57,8 @@ Then he came to our monastry
 
 I live about a massful orb
 contorting time itself
-I've watched worlds bloom and fall
-I've come to learn the cause.
+I’ve watched worlds bloom and fall
+I’ve come to learn the cause.
 
 I prey on life of other worlds.
 
