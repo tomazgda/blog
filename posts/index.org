@@ -15,5 +15,5 @@
 
 * What can you do now?
 - Read some /not-very-good/ writing I'm still pround of [[file:blog-index.org][here]].
-- (Complain about it [[mailto:tomaz@tagda.org][here]]).
+- (Complain about it [[mailto:tomazgda@icloud.com][here]]).
 
